@@ -14,7 +14,7 @@ include_once 'Conexion.php';
 class PedidosDAO {
     
     protected $cnn;
-    
+    //listo
     function __construct(){
         $this->cnn = new Conexion();
     }
